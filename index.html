@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="icon" href="img/HTML.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1><a href="#">SHOON'S JAPANESE LANGUAGE SCHOOL</a></h1>
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#table">TIMETABLE</a></li>
+            <li><a href="#video">VIDEO</a></li>
+            <li><a href="contact.html" target="blank">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="school inner">
+        <div class="clearfix">
+            <div class="image">
+                <img src="img/about.png" alt="about_our_school">
+            </div>
+            <div class="text">
+                <h2 id="about">What is Japanese!</h2>
+                <p>Japanese is an agglutinative, mora-timed language with relatively simple phonotactics,
+                    a pure vowel system, phonemic vowel and consonant length, and a lexically significant pitch-accent.
+                    Word order is normally subject–object–verb with particles marking the grammatical function of words,
+                    and sentence structure is topic–comment. Sentence-final particles are used to add emotional or
+                    emphatic impact, or form questions. Nouns have no grammatical number or gender, and there are no
+                    articles. Verbs are
+                    conjugated, primarily for tense and voice, but not person. Japanese adjectives are also conjugated.
+                    Japanese has a
+                    complex system of honorifics, with verb forms and vocabulary to indicate the relative status of the
+                    speaker, the listener, and persons
+                    mentioned.
+                </p>
+                <div class="about">
+                    <h3>ABOUT OUR SCHOOL</h3>
+                    <ol>
+                        <li>
+                            <dt>
+                                <dl>KANJI : Morning Class (9:00 to 11:30)</dl>
+                            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit.</dd>
+                            </dt>
+                        </li>
+                        <li>
+                            <dt>
+                                <dl>VOCAB : Lunch Class (1:00 to 3:30)</dl>
+                            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit.</dd>
+                            </dt>
+                        </li>
+                        <li>
+                            <dt>
+                                <dl>GRAMMER : Evening Class (6:00 to 8:30)</dl>
+                            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit.</dd>
+                            </dt>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <h4 id="table">Study Timetable</h4>
+        <table border="1">
+            <caption>Timetable</caption>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <td>9:00AM to 11:30AM</td>
+                <td colspan="2">KANJI</td>
+                <td>VOCAB</td>
+                <td rowspan="2">GRAMMER</td>
+                <td colspan="3">OFF</td>
+            </tr>
+            <tr>
+                <td>1:00PM to 3:30PM</td>
+                <td rowspan="2">VOCAB</td>
+                <td colspan="2">KANJI</td>
+                <td>GRAMMER</td>
+                <td colspan="2" rowspan="2">OFF</td>
+            </tr>
+            <tr>
+                <td>6:00AM to 8:30PM</td>
+                <td>VOCAB</td>
+                <td>KANJI</td>
+                <td>TEST</td>
+                <td>GRAMMER</td>
+            </tr>
+        </table>
+        <div class="blk ">
+            <h5>AUDIO & VIDEO</h5>
+            <div class="audio">
+                <audio src="img/audio.mp3" controls></audio>
+            </div>
+            <div class="video" id="video">
+                <video src="img/video.mp4" controls type="video/mp4">Japanese Song</video>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="icon" href="img/HTML.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="contact">
+        <h1 class="form">Language Class Form</h1>
+        <form action="">
+            <fieldset>
+                <legend>Fill This Sheet</legend>
+                <div class="info clearfix">
+                    <div class="left">
+                        <label for="">Name</label>
+                        <input type="text" id="name" placeholder="Enter Username" required autocomplete="off">
+                        <label for="">Email</label>
+                        <input type="email" placeholder="Enter Email" id="email">
+                        <label for="">Password</label>
+                        <input type="password" placeholder="Enter Password" id="pw">
+                    </div>
+                    <div class="right">
+                        <label for="">Birthday</label>
+                        <input type="date">
+                        <label for="">Classtime</label>
+                        <input type="time">
+                        <label for="">Phone Number</label>
+                        <input type="phone" placeholder="09-234567897" required>
+                    </div>
+                </div>
+                <div class="level">
+                    <label for="level">LEVEL</label>
+                    <select name="" id="level">
+                        <optgroup label="Japanese Level">
+                            <option value="">N5</option>
+                            <option value="">N4</option>
+                            <option value="">N3</option>
+                        </optgroup>
+                        <optgroup label="English Level">
+                            <option value="">Begineer</option>
+                            <option value="">Intermediate</option>
+                            <option value="">Advanced</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="language">
+                    <input type="checkbox" name="language" value="html"> HTML
+                    <input type="checkbox" name="language" value="css"> CSS
+                    <input type="checkbox" name="language" value="jquery"> JQUERY
+                    <input type="checkbox" name="language" value="javascript"> JAVASCRIPT
+                </div>
+                <div class="address">
+                    <label for="address">Address</label>
+                    <textarea name="" id="address" cols="50" rows="5" placeholder="Enter Address..."></textarea>
+                </div>
+                <label>Gender</label>
+                <div class="gender">
+                    <input type="radio" name="gender" value="male" checked> Male
+                    <input type="radio" name="gender" value="female" checked> Female
+                </div>
+            </fieldset>
+            <div class="button">
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
